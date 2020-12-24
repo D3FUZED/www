@@ -4,14 +4,13 @@
 	 viewBox="0 0 126 126" style="enable-background:new 0 0 126 126;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{opacity:0.68;fill:#7DC798;}
-	.st2{fill:none;stroke:#7DC798;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#8DCFA8;stroke:#8DCFA8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
 </style>
 <circle class="st0" cx="63" cy="62.5" r="57.5"/>
 <g>
-	<path class="st1" d="M91.48,85.64H41.2c-2.31,0-3.75-2.5-2.6-4.5l25.14-43.55c1.15-2,4.04-2,5.2,0l25.14,43.55
-		C95.24,83.14,93.79,85.64,91.48,85.64z"/>
-	<path class="st2" d="M79.4,84.62H31.64c-2.31,0-3.75-2.5-2.6-4.5l23.88-41.37c1.15-2,4.04-2,5.2,0L82,80.12
-		C83.16,82.12,81.71,84.62,79.4,84.62z"/>
+	<path class="st1" d="M45.6,85.7H92l0,0c-12.8,0-23.2-5.2-23.2-11.6l0,0l0,0C68.8,80.5,58.4,85.7,45.6,85.7L45.6,85.7 M92,85.7
+		L92,85.7L68.8,39.3l0,0L45.6,85.7"/>
+	<path class="st2" d="M80.4,85.7L80.4,85.7H34l0,0l0,0l23.2-46.4l0,0L80.4,85.7"/>
 </g>
 </svg>
