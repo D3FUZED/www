@@ -7,9 +7,7 @@
 	.st1{fill:#8DCFA8;stroke:#8DCFA8;stroke-linecap:round;stroke-linejoin:round;}
 	.st2{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;}
 </style>
-<circle class="st0" cx="63" cy="62.5" r="57.5"/>
-<path class="st1" d="M68.3,41.4L68.3,41.4L68.3,41.4c11.6,0,21.1,9.4,21.1,21.1l0,0c0,11.6-9.4,21.1-21.1,21.1l0,0
-	c-11.6,0-21.1-9.4-21.1-21.1l0,0C47.2,50.9,56.6,41.4,68.3,41.4"/>
-<path class="st2" d="M57.7,41.4L57.7,41.4L57.7,41.4 M57.7,83.6L57.7,83.6c11.6,0,21.1-9.4,21.1-21.1l0,0c0-11.6-9.4-21.1-21.1-21.1
-	l0,0c-11.6,0-21.1,9.4-21.1,21.1l0,0C36.7,74.1,46.1,83.6,57.7,83.6"/>
+<circle class="st0" cx="63" cy="64.5" r="57.5"/>
+<path class="st1" d="M63,34.7L63,34.7L63,34.7L38.2,84.3l0,0h49.5l0,0L63,34.7"/>
+<path class="st2" d="M75.4,91.3L75.4,91.3 M63,66.5L63,66.5L63,66.5l12.4,24.8 M63,66.5L63,66.5L50.6,91.3l0,0h24.8"/>
 </svg>
