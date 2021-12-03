@@ -31,7 +31,6 @@
 				</div>
 				<p class="align-right"><a href="img/Orne White Paper EN.pdf" target="_blank">Whitepaper →</a></p>
 				<p class="align-right"><a href="#3">How it works →</a></p>
-				<p class="align-right"><a href="#4">Join the ICO →</a></p>
 			</div>
 		</div>
 		<div id="section2" class="section">
@@ -123,34 +122,6 @@
 				</div>
 			</div>
 		</div>
-		<div id="section4" class="section">
-			<div class="wrapping-content">
-				<div class="section-2-3">
-					<h2 class="white-txt">Join the <b>$ORNE</b> crowdfunding<span> and get the best rate for trees</span></h2>
-				</div>
-				<div class="section-1-3 align-right">
-					<img class="ico-swap-illustration" src="img/ico-swap.svg" alt="Join our ICO">
-				</div>
-				<div class="clear"></div>
-				<p>
-					Orne crowdfunding will start soon, contact us for more information.
-				</p>
-				<p>
-					<a href="img/Orne White Paper EN.pdf" target="_blank">Read our announcement →</a>
-				</p>
-				<div class="ico-wrapper">
-					<p id="ico-countdown"></p>
-					<div class="ico-info bg-green-green">
-						<p class="align-center">
-							<span>1 $ORNE = $0.01</span>
-							<span>Total supply = 100m ORNE</span>
-							<span>Circulating supply = 55m ORNE</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div class="section fp-auto-height footer-wrapper">
 			<div class="wrapping-content">
 				<footer>
@@ -191,41 +162,12 @@
 	<script type="text/javascript" src="js/fullpage.min.js"></script>
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			anchors: ['1', '2', '3', '4', '5'],
-			sectionsColor: ['#f8f8f8', '#9bc8c3', '#f8f8f8', '#9bc8c3', '#f8f8f8'],
+			anchors: ['1', '2', '3', '4'],
+			sectionsColor: ['#f8f8f8', '#9bc8c3', '#f8f8f8', '#f8f8f8'],
 			navigation: true,
 			navigationPosition: 'right',
 			responsiveWidth: 961
 		});
-	</script>
-	<script>
-		// Set the date we're counting down to
-		var countDownDate = new Date("dec 25, 2021 12:00:00").getTime();
-
-		// Update the count down every 1 second
-		var x = setInterval(function () {
-
-			// Get today's date and time
-			var now = new Date().getTime();
-
-			// Find the distance between now and the count down date
-			var distance = countDownDate - now;
-
-			// Time calculations for days, hours, minutes and seconds
-			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-			// Display the result in the element with id="demo"
-			document.getElementById("ico-countdown").innerHTML = "<span class='ico-d'>" + days + "</span>" + "<span class='ico-h'>" + hours + "</span>" + "<div class='mobile-clear'></div>" + "<span class='ico-m'>" + minutes + "</span>" + "<span class='ico-s'>" + seconds + "</span>";
-
-			// If the count down is finished, write some text
-			if (distance < 0) {
-				clearInterval(x);
-				document.getElementById("ico-countdown").innerHTML = "PROJECT IS LIVE";
-			}
-		}, 1000);
 	</script>
 </body>
 
